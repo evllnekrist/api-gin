@@ -7,4 +7,4 @@ I accumulate code and fixing it to fit with the case that I have, hope the effor
 
 # Documentation
 
-[Here is my documentation](https://drive.google.com/open?id=1jVgHTtGfFtciSEIx4MRxLEjaEs94ikY2tr) it still not complete but still can cover what i write. Also, in this documentation I write my tips & suggestion. 
+[Here is my documentation](https://drive.google.com/file/d/1jVgHTtGfFtciSEIx4MRxLEjaEs94ikY2/view?usp=sharing) it still not complete but still can cover what i write. Also, in this documentation I write my tips & suggestion. 
