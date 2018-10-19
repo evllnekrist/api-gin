@@ -1,0 +1,78 @@
+
+	{{template "head"}}
+	{{template "nav"}}
+	<div class="container">
+
+        <h4>Path list</h4>
+        <subtitle>{{.docNecessity}}</subtitle>
+        <br><br><br>
+
+        <table class="table table-hover table-dark">
+		  <thead>
+		    <tr>
+		      <th scope="col">Num</th>
+		      <th scope="col">Type</th>
+		      <th scope="col">Status</th>
+		      <th scope="col">URL</th>
+		      <th scope="col">Data Source</th>
+		      <th scope="col">Necessity</th>
+		    </tr>
+		  </thead>
+		  <tbody>
+		    <tr>
+		      <th scope="row">1</th>
+		      <td>GET</td>
+		      <td>Ready</td>
+		      <td>10.3.231.125/okz/headline/:type/:id/:limit/:start</td>
+		      <td>Redis - 172.17.6.45 : 6379</td>
+		      <td>List Headline News</td>
+		    </tr>
+		    <tr>
+		      <th scope="row">2</th>
+		      <td>GET</td>
+		      <td>Ready</td>
+		      <td>10.3.231.125/okz/breaking/:type/:id/:limit/:start</td>
+		      <td>Redis - 172.17.6.45 : 6379</td>
+		      <td>List Breaking News</td>
+		    </tr>
+		    <tr>
+		      <th scope="row">3</th>
+		      <td>GET</td>
+		      <td>Ready</td>
+		      <td>10.3.231.125/okz/read/:type/:id</td>
+		      <td>Redis - 172.17.6.45 : 6379</td>
+		      <td>Detail Content</td>
+		    </tr>
+		    <tr>
+		      <th scope="row">4</th>
+		      <td>POST</td>
+		      <td>Developing</td>
+		      <td>10.3.231.125/okz/</td>
+		      <td>Redis - 172.17.6.45 : 6379</td>
+		      <td>Insert New Content</td>
+		    </tr>
+		    <tr>
+		      <th scope="row">5</th>
+		      <td>PUT</td>
+		      <td>Developing</td>
+		      <td>10.3.231.125/okz/:id</td>
+		      <td>Redis - 172.17.6.45 : 6379</td>
+		      <td>Update Exist Content</td>
+		    </tr>
+		    <tr>
+		      <th scope="row">6</th>
+		      <td>DELETE</td>
+		      <td>Developing</td>
+		      <td>10.3.231.125/okz/:id</td>
+		      <td>Redis - 172.17.6.45 : 6379</td>
+		      <td>Delete Exist Content</td>
+		    </tr>
+		    <tr>
+		      <th rowspan="2" scope="row">Oth.</th>
+		      <td rowspan="2" colspan="5" class="bg-emerald"> - </td>
+		    </tr>
+		  </tbody>
+		</table>
+
+    </div>
+	{{template "foot"}}

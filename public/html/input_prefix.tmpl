@@ -1,0 +1,18 @@
+{{define "input_prefix"}}
+    <label class="col-sm-2 col-form-label">Prefix</label>
+    <select class="col-sm-8 form-control" name="prefix">
+      <option value="ex:string:">		ex:string		</option>
+      <option value="ex:list:">			ex:list			</option>
+      <option value="ex:set:">			ex:set			</option>
+      <option value="ex:zset:">			ex:zset			</option>
+      <option value="ex:hash:">			ex:hash			</option>
+      <option>							__________________________	</option>
+      <option>														</option>
+      <option>							Beware, below is real data 	</option>
+      <option>							__________________________	</option>
+      <option>														</option>
+      <option value="okz:content:">		okz:content		</option>
+      <option value="okz:headline:">	okz:headline	</option>
+      <option value="okz:breaking:">	okz:breaking	</option>
+    </select>
+{{end}}

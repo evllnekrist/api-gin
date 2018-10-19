@@ -1,0 +1,18 @@
+
+	{{template "head"}}
+	{{template "nav"}}
+	<div class="container">
+        <h4>Action info</h4>
+        <subtitle>to show the feedback</subtitle>
+        <br><br><br>
+        <h5>{{.docNecessity}}</h5>
+        <br><br><br>
+    </div>
+
+	<center class="bg-asphalt pad-top">
+	<b>
+    	we were runnin on <a href="https://golang.org/">Golang</a> ver {{ .goVersion}} with 
+    	<a href="https://github.com/Massad/gin-boilerplate" target="_blank" title="Gin Boilerplate">Gin Boilerplate</a> ver {{ .ginBoilerplateVersion}}	
+	</b>
+	</center>
+	{{template "foot"}}
