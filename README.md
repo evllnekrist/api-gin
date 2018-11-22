@@ -1,7 +1,5 @@
 <p align="center">
-  <img src="https://avatars1.githubusercontent.com/u/7894478?s=400&v=4" width="300">
-  x 
-  <img src="https://cdn-images-1.medium.com/max/1200/1*ngGAAMf8Sw4jCJ_nP2Qt5A.png" width="300">
+  <img src="https://avatars1.githubusercontent.com/u/7894478?s=400&v=4" width="300" alt="fufuufufufufufu">
 </p>
 
 ## Salam,
