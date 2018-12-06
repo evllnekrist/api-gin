@@ -16,8 +16,10 @@ var helper_eve = new(helpers.EveHelper) //nama-package.nama-type-data-file-packa
 
 var (
 	Pool        *redis.Pool
-	myRedisHost = "172.17.6.45"
-	mydb_redis  = "1"
+	myRedisHost = ""
+	mydb_redis  = ""
+	// myRedisHost = "172.17.6.45"
+	// mydb_redis  = "1"
 	// myRedisHost = "192.168.4.191"
 	// mydb_redis   = "0"
 )
